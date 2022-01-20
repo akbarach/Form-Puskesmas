@@ -1,0 +1,38 @@
+/* Jumbotron */
+.jumbotron {
+  padding-top: 20%;
+  padding-bottom: 14%;
+  background-color: lightseagreen;
+  color: white;
+  background-image: url('ibuhamil.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Akhir Jumbotron */
+/* Heading */
+h1.display-4 {
+  text-shadow: 2px 2px 10px black;
+}
+h2.a {
+  text-shadow: 2px 2px 10px black;
+}
+h5.card-header {
+  background-color: #a3da8d;
+  padding: 15px;
+}
+/* Akhir Heading */
+body {
+  background-color: #edffec;
+  font-family: 'Times New Roman', Times, serif;
+}
+#jalan {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #6baaa0;
+  color: white;
+}
+section {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}

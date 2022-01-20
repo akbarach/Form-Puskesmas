@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Puskesmas</title>
+  </head>
+  <body id="home">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #6baaa0;">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="logo_puskesmas.png" alt="logo puskesmas" width="120" height="60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#norm">No. RM</a>
+              <a class="nav-link" href="#identitas">Identitas</a>
+              <a class="nav-link" href="#amnesa">Amnesa</a>
+              <a class="nav-link" href="#pemeriksaanantenatal">Pemeriksaan Antenatal</a>
+              <a class="nav-link" href="#form5">Resiko dan Rujuk</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir Navbar -->
+      <!-- Jumbotron -->
+    <section class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+          <h1 class="display-4" style="font-family: 'Times New Roman', Times, serif;">KARTU PEMERIKSAAN IBU HAMIL</h1>
+          <h2 class="a" style="font-family: 'Times New Roman', Times, serif;">PUSKESMAS 1 PURWOKERTO TIMUR</h2>
+        </div>
+    </section>
+      <!-- Akhir Jumbotron -->
+
+      <!-- Text Berjalan -->
+    <section id="jalan">
+        <div class="container-fluid">
+            <h5><marquee behavior="" direction="">MEMBANGUN MASYARAKAT YANG SEHAT</marquee></h5>
+        </div>
+    </section>
+      <!-- Akhir Text Berjalan -->
+
+<!-- Form1 -->
+<section id="norm">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="row mb-3">
+                      <label for="noregis" class="col-sm-2 col-form-label">NO. REGISTER</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="noregis">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="nopuskesmas" class="col-sm-2 col-form-label">NO. PUSKESMAS</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="nopuskesmas">
+                      </div>
+                    </div>
+                  </form>
+            </div>
+          </div>
+    </div>
+</section>
+<!-- Akhir Form1 -->
+
+<!-- Form2 -->
+<section id="identitas">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-header">IDENTITAS</h5>
+            <div class="card-body">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Nama Ibu</label>
+                      <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Nama Suami</label>
+                      <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Umur</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Umur</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Agama</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Agama</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Pendidikan</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Pendidikan</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Pekerjaan</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Pekerjaan</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Alamat</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Alamat</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                      </div>
+                  </form>
+            </div>
+          </div>
+    </div>
+</section>
+<!-- Akhir Form2 -->
+
+<!-- Form3 -->
+<section id="amnesa">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-header">AMNESA</h5>
+            <div class="card-body">
+                <h6>1.  Riwayat Perkawinan</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nikah Umur">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Lama Kawin">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Kawin ke berapa">
+                    </div>
+                  </form>
+                  <br>
+                  <h6>2.    Riwayat Penyakit Sekarang</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Riwayat Penyakit Sekarang">
+                    </div>
+                </form>
+                <br>
+                <h6>3.  Riwayat Penyakit Lalu</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Riwayat Penyakit Lalu">
+                    </div>
+                </form>
+                <br>
+                <h6>4.  Riwayat Obstetri</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Riwayat Obstetri">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Menarche Umur">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Siklus HAID">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Lama HAID">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Banyaknya HAID">
+                    </div>
+                </form>
+                <br>
+                <h6>5.  Riwayat Penyakit Keluarga</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Riwayat Penyakit Keluarga">
+                    </div>
+                </form>
+                <br>
+                <h6>6.  Riwayat Kehamilan dan Persalinan Lalu</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Riwayat Kehamilan dan Persalinan Lalu">
+                    </div>
+                </form>
+                <table class="table table-bordered text-center">
+                    <tr>
+                        <th rowspan="3">NO</th>
+                        <th rowspan="3">ABORTUS</th> 
+                        <th> </th>
+                        <th colspan="5">KELAHIRAN</th>
+                        <th colspan="2">UMUR ANAK</th>
+                        <th rowspan="3">KETERANGAN</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">UMUR MATI</th>
+                        <th colspan="2">LAHIR HIDUP</th>
+                        <th colspan="2">CARA LAHIR</th>
+                        <th rowspan="2">PENOLONG PERSALINAN</th>
+                        <th rowspan="2">SEKARANG</th>
+                        <th rowspan="2">WAKTU MENINGGAL</th>
+                    </tr>
+                    <tr>
+                        <th>L</th>
+                        <th>P</th>
+                        <th>SPONT</th>
+                        <th>TIND</th>
+                    </tr>
+                    <tr>
+                        <td><br><br><br><br><br></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <br>
+                <h6>7.  Riwayat Kehamilan Kembar</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ada/tidak">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Hubungan">
+                    </div>
+                </form>
+                <br>
+                <h6>8.  Riwayat KB</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Jumlah anak yang diinginkan">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Metode KB yang pernah digunakan">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Apakah ia menginginkan kehamilannya">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Rencana KB setelah melahirkan">
+                    </div>
+                </form>
+                <br>
+                <h6>9.  Riwayat Kehamilan Sekarang</h6>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Hari pertama haid terakhir (HPHT)">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Hari taksiran persalinan (HTP)">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Keluhan utama">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Status Imunisasi">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Sudah/belum">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="TT 1/TT 2">
+                    </div>
+                </form>
+            </div>
+          </div>
+    </div>
+</section>
+<!-- Akhir Form3 -->
+
+<!-- Form4 -->
+<section id="pemeriksaanantenatal">
+    <div class="container">
+      <div class="card" style="width: 76rem;">
+        <table class="table table-bordered text-center">
+            <tr>
+                <th colspan="14">
+                    PEMERIKSAAN ANTENATAL
+                    <br>
+                    <br>
+                    <div class="row mb-3">
+                        <label for="inputTinggiBadan" class="col-sm-2 col-form-label">Tinggi Badan</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputTinggiBadan">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="inputLila" class="col-sm-2 col-form-label">Lila</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputLila">
+                        </div>
+                </th>
+
+            <tr>
+                <th rowspan="2">TGL</th>
+                <th rowspan="2">KELUHAN SEKARANG</th>
+                <th rowspan="2">TEKANAN DARAH (mmHG)</th>
+                <th rowspan="2">BERAT BADAN (kg)</th>
+                <th rowspan="2">UKUR KEHAMILAN (Minggu)</th>
+                <th rowspan="2">TINGGI FUNDUS (cm)</th>
+                <th rowspan="2">LETAK JANIN Kep./Su/Li</th>
+                <th rowspan="2">DENYUT JANTUNG JANIN</th>
+                <th rowspan="2">LABORATURIUM</th>
+                <th rowspan="2">PEMERIKSAAN KHUSUS</th>
+                <th colspan="3">TINDAKAN DAN TERAPI</th>
+                <th rowspan="2">PARAF</th>
+            </tr>
+            <tr>
+                <th>TT</th>
+                <th>Fe</th>
+                <th>LAIN-LAIN</th>
+            </tr>
+            <tr>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+                <td><br><br></td>
+            </tr>
+        </table>
+      </div>
+    </div>
+</section>
+<!-- Akhir Form4 -->
+<!-- Form5 -->
+<section id="form5">
+  <div class="container">
+    <form action="">
+      <div class="mt-5 mb-3">
+        <div class="row fw-bold pb-3">
+          <div class="col-6">RESIKO TINGGI</div>
+          <div class="col-6">RUJUK</div>
+        </div>
+        <div class="row pb-3">
+          <div class="col-6">
+            <input class="form-control" type="text" placeholder="Ditemukan Tanggal">
+          </div>
+          <div class="col-6">
+            <input class="form-control" type="text" placeholder="Dirujuk Tanggal">
+          </div>
+        </div>
+        <div class="row pb-3">
+          <div class="col-6">
+            <input class="form-control" type="text" placeholder="Jenis Resiko">
+          </div>
+          <div class="col-6">
+            <input class="form-control" type="text" placeholder="Dirujuk Ke">
+          </div>
+        </div>
+        <div class="row justify-content-end">
+          <div class="col-6">
+            <input class="form-control" type="text" placeholder="Tindakan Sementara">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- Akhir Form5 -->
+<!-- Button -->
+<section id="button">
+  <div class="container">
+    <button type="button" class="btn btn-danger btn-lg">Kembali</button>
+    <button type="button" class="btn btn-danger btn-lg">Save</button>
+  </div>
+</section>
+<!-- Akhir Button -->
+<!-- Footer -->
+<footer class="text-dark text-center pb-2">
+  <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/akbarach_/" target="_blank" class="text-dark">Akbar Rachmat Syafarudin</a></p>
+</footer>
+<!-- Akhir Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
