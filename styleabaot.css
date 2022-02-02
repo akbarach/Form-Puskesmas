@@ -1,0 +1,21 @@
+/* button{
+    margin-bottom: 50px;
+    color: black;
+    background-color: green;
+} */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table,td,th{
+    border: 1px solid blue;
+    text-align: center;
+}
+
+table tr th{
+    background-color: black;
+    color: white;
+}
